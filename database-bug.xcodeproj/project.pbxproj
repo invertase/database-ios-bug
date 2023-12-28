@@ -14,6 +14,7 @@
 		466E894E2B3D87430043EC46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466E894D2B3D87430043EC46 /* Assets.xcassets */; };
 		466E89512B3D87430043EC46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466E894F2B3D87430043EC46 /* LaunchScreen.storyboard */; };
 		466E89542B3D87430043EC46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 466E89532B3D87430043EC46 /* main.m */; };
+		466E895B2B3D8D4D0043EC46 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 466E895A2B3D8D4D0043EC46 /* GoogleService-Info.plist */; };
 		861E6B8F37F9A7B2DAC16981 /* Pods_database_bug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 085B15FE78EBC29B87909D5E /* Pods_database_bug.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		466E89502B3D87430043EC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		466E89522B3D87430043EC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		466E89532B3D87430043EC46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		466E895A2B3D8D4D0043EC46 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5A3C5E233C72F6CEDC52CD5C /* Pods-database-bug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-database-bug.debug.xcconfig"; path = "Target Support Files/Pods-database-bug/Pods-database-bug.debug.xcconfig"; sourceTree = "<group>"; };
 		C9C788A88351564AFE2FDF59 /* Pods-database-bug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-database-bug.release.xcconfig"; path = "Target Support Files/Pods-database-bug/Pods-database-bug.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,7 +55,6 @@
 				5A3C5E233C72F6CEDC52CD5C /* Pods-database-bug.debug.xcconfig */,
 				C9C788A88351564AFE2FDF59 /* Pods-database-bug.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -68,6 +69,7 @@
 		466E89352B3D87420043EC46 = {
 			isa = PBXGroup;
 			children = (
+				466E895A2B3D8D4D0043EC46 /* GoogleService-Info.plist */,
 				466E89402B3D87420043EC46 /* database-bug */,
 				466E893F2B3D87420043EC46 /* Products */,
 				03C4B00B45696383AC474F69 /* Pods */,
@@ -161,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				466E89512B3D87430043EC46 /* LaunchScreen.storyboard in Resources */,
+				466E895B2B3D8D4D0043EC46 /* GoogleService-Info.plist in Resources */,
 				466E894E2B3D87430043EC46 /* Assets.xcassets in Resources */,
 				466E894C2B3D87420043EC46 /* Main.storyboard in Resources */,
 			);
@@ -369,6 +372,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YYX2P3XVJ7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "database-bug/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -376,6 +380,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,6 +402,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YYX2P3XVJ7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "database-bug/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -404,6 +410,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
